@@ -18,12 +18,13 @@ export const CardBody = styled.div`
   }
 
   button{
-    padding:10px;
+    padding: 10px;
     border-radius: 5px;
     width: 20%;
     border:none;
     font-size: 17px;
     background: rgba(27, 27, 27, 0.185);
+    margin-top: -40px;
   }
   button:hover{
     background-color:gray;
@@ -42,6 +43,7 @@ export const Form = styled.div`
   align-items: center;
   padding: 30px;
   flex-direction: column;
+  margin: 20px auto;
 
   input {
     padding: 5px;
@@ -69,7 +71,6 @@ export const Form = styled.div`
  
   h3 {
     color: gray;
-    margin-bottom: -1px;
   }
 
 `;

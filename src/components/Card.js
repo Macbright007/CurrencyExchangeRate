@@ -30,7 +30,7 @@ const Card = ({
           </select>
         </div>
       </Form>
-          <button onClick={convert} disabled={!amount}>convert</button>
+          <button onClick={convert} disabled={!amount}>Convert</button>
           <h1>{`The exchange rate is ${output}`}</h1>
     </CardBody>
   );
