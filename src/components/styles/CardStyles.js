@@ -10,8 +10,16 @@ export const CardBody = styled.div`
   @media screen and (min-width:300px) and (max-width: 650px) {
      {
         width: 80%;
+        padding: 20px;
     }
   }
+
+  @media screen and (min-width:400px) and (max-width: 700px) {
+    {
+       width: 80%;
+       padding: 20px;
+   }
+ }
   h1 {
     color: gray;
     
@@ -55,6 +63,12 @@ export const Form = styled.div`
     border-radius: 5px;
     border:none;
     width: 47%;
+  } 
+
+  @media screen and (min-width:300px) and (max-width: 650px) {
+    input {
+        width: 90%;
+    }
   }
 
   select {

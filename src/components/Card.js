@@ -16,7 +16,7 @@ const Card = ({
     <CardBody>
       <Form>
         <h3>Amount</h3>
-        <input type="text" placeholder="Enter the amount" onChange={amount} />
+        <input type="number" placeholder="Enter the amount" onChange={amount} />
         <div>
           <select value={currency1} onChange={onChangeCurrency}>
             {currencyOptions.map((option) => (
